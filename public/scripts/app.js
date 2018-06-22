@@ -41,9 +41,7 @@ function createTweetElement(tweetData){
   // FOOTER
   // TIME STAMP
   const created_at = tweetData.created_at;
-  //let realTime = moment(created_at).format();
-  const realTime = new Date(created_at).toUTCString().split(' ').slice(0, 4).join(' ');
-  $('<p>').addClass('date').text(realTime).prependTo($footer);
+  $('<p>').addClass('date').text(moment(created_at).fromNow()).prependTo($footer);
 
   // LOGOS
   $('<i>').addClass('logos').addClass('fas fa-flag').appendTo($logoDiv);
@@ -81,7 +79,6 @@ $('#formTweet').on('submit', event => {
       data: $(event.target).serialize(),
       success: function () {
         loadTweets()
-        $('textarea').val(null);
         resetCounter(event.target);
       }
     });
