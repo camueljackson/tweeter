@@ -6,6 +6,7 @@ $('document').ready(function () {
   $('.compose').on('click', function (event) {
   $('.new-tweet').slideToggle(200);
   $('textarea').focus();
+  $('.errorMessage').remove();
   });
 
 // RENDER TWEETS
