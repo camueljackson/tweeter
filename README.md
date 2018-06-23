@@ -3,11 +3,11 @@
 Tweeter is a simple, single-page Twitter clone. It was developped using knowledge of HTML, CSS, JS, jQuery and AJAX to build front-end. Node, Express and MongoDB were used in developping the backend.
 
 
-!['Screenshot of Home Page'](https://github.com/camueljackson/LHL-tinyApp/blob/master/HomePage.png)
+!['Compose tweet'](https://github.com/camueljackson/tweeter/blob/master/public/images/composeTweet.png)
 
-!['Page where new URL entered'](https://github.com/camueljackson/LHL-tinyApp/blob/master/URLS_new.png)
+!['Posting empty tweet'](https://github.com/camueljackson/tweeter/blob/master/public/images/emptyTweet.png)
 
-!['URLs Database'](https://github.com/camueljackson/LHL-tinyApp/blob/master/urlsDB.png)
+!['Hovering over tweet'](https://github.com/camueljackson/tweeter/blob/master/public/images/hoverState.png)
 
 ## Getting Started
 
